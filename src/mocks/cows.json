@@ -1,0 +1,15 @@
+[
+  {
+    "id": 4,
+    "name": "Cultivo 1",
+    "description": "Cultivo Papa", 
+    "img": "https://raw.githubusercontent.com/alexiisv/front-pulsioximeter/main/src/assets/cows/mujerr.webp?token=GHSAT0AAAAAACTK67BRRPW6HDBTBSS6FKYQZTU7L5Q"
+  },
+  {
+    "id": 4,
+    "name": "Cultivo 2",
+    "description": " Cultivo Arbeja",
+    "img": "https://raw.githubusercontent.com/alexiisv/front-pulsioximeter/main/src/assets/cows/mujerr.webp?token=GHSAT0AAAAAACTK67BRRPW6HDBTBSS6FKYQZTU7L5Q"
+  }
+]
+
