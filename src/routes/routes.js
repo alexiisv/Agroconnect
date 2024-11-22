@@ -38,15 +38,15 @@ export const routes = [
         children: [
           {
             path: '',
-            element: lazy(async () => await import('@/pages/Users/pages/Home'))
+            element: lazy(async () => await import('@/pages/Users/pages/Homeprod'))
           },
           {
             path: 'edit/:username',
-            element: lazy(async () => await import('@/pages/Users/pages/Edit'))
+            element: lazy(async () => await import('@/pages/Users/pages/Editprod'))
           },
           {
             path: 'create',
-            element: lazy(async () => await import('@/pages/Users/pages/Create'))
+            element: lazy(async () => await import('@/pages/Users/pages/Createprod'))
           }
         ]
       },
