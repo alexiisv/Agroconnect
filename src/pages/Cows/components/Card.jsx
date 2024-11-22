@@ -8,7 +8,7 @@ function Card ({ cow }) {
         <div className='flex items-center gap-6'>
           <img
             src={cow.img}
-            alt='Person'
+            alt='cultivo'
             className='inline-block object-cover object-center rounded-lg w-16 h-16'
           />
           <div>

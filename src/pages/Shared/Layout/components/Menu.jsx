@@ -1,20 +1,26 @@
 import { Link, NavLink } from 'react-router-dom'
-import { FaHouse, FaCow, FaUser, FaXmark, FaArrowRightToBracket, FaPerson } from 'react-icons/fa6'
+import { FaHouse, FaCow, FaUser, FaXmark, FaArrowRightToBracket, FaPerson, FaTable } from 'react-icons/fa6'
 import useAuthContext from '@/hooks/useAuthContext'
 import useLayoutContext from '../hooks/useLayoutContext'
 import { PATHS } from '@/routes/paths'
 
 const OPCIONS = [
   {
-    name: 'Home',
+    name: 'Inicio',
     href: PATHS.HOME,
     icon: FaHouse,
     roles: ['USER_ROLE', 'ADMIN_ROLE']
   },
   {
-    name: 'Usuarios',
+    name: 'Cultivos',
     href: PATHS.COWS,
     icon: FaPerson,
+    roles: ['USER_ROLE', 'ADMIN_ROLE']
+  },
+  {
+    name: 'Productos',
+    href: PATHS.PRODUCTOS,
+    icon: FaTable,
     roles: ['USER_ROLE', 'ADMIN_ROLE']
   },
   {
@@ -48,7 +54,7 @@ function Menu () {
         <div>
           <div className='m-4 mt-8 text-center'>
             <Link to='/' className='text-2xl font-bold text-slate-700'>
-              Pulsioximetro
+             AgroConnect
             </Link>
           </div>
           <div className='m-4'>

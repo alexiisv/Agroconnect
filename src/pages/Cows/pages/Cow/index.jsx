@@ -13,7 +13,7 @@ function Cow () {
   const cow = COWS.find((cow) => cow.id == id)
 
   if (!cow) {
-    return <p>Cow not found</p>
+    return <p>Cultivo not found</p>
   }
 
   const [dataCollar, setDataCollar] = useState(null)

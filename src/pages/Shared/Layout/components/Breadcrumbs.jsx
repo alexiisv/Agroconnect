@@ -9,7 +9,7 @@ function Breadcrumbs () {
       <ol className='flex'>
         <li>
           <Link to='/' className=''>
-            home
+            Inicio
           </Link>
         </li>
         {pathnames.map((name, index) => {

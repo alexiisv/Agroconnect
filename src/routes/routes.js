@@ -33,6 +33,24 @@ export const routes = [
         ]
       },
       {
+        path: PATHS.PRODUCTOS,
+        layout: lazy(async () => await import('@/pages/Users')),
+        children: [
+          {
+            path: '',
+            element: lazy(async () => await import('@/pages/Users/pages/Home'))
+          },
+          {
+            path: 'edit/:username',
+            element: lazy(async () => await import('@/pages/Users/pages/Edit'))
+          },
+          {
+            path: 'create',
+            element: lazy(async () => await import('@/pages/Users/pages/Create'))
+          }
+        ]
+      },
+      {
         path: PATHS.USERS,
         layout: lazy(async () => await import('@/pages/Users')),
         children: [
